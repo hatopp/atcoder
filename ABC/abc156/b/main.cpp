@@ -5,27 +5,17 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count;
-    string s, sans;
-    cin >> n;
-    vector<int> data(n);
-    for (int i = 0; i < n; ++i)
+    int n, k;
+    cin >> n >> k ;
+    vector<int> v;
+    while (n > 0)
     {
-        cin >> data[i];
+        v.push_back(n % k);
+        n = n / k;
     }
 
-    sans = "APPROVED";
-    rep(i, n)
-    {
-        if (i % 2 == 0)
-        {
-            if (data[i] % 3 != 0 || data[i] % 5 != 0)
-            {
-                sans = "DENIED";
-            }
-        }
-    }
+    
+    cout << v.size() << endl;
 
-    cout << sans << endl;
     return 0;
 }

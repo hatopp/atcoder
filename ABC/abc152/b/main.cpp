@@ -3,21 +3,33 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, t, sans;
+    string a, b;
     cin >> a >> b;
+    int ia = stoi(a);
+    int ib = stoi(b);
 
-    for (int i = 0; i < b; i++)
+    string ab, ba;
+
+    for (int i = 0; i < ib; i++)
     {
-        s[i] ='0' + a;
+        ab += a;
     }
-    for (int i = 0; i < a; i++)
+
+    for (int i = 0; i < ia; i++)
     {
-        t[i] = b;
+        ba += b;
     }
-    cout << s << endl;
-/*
-        cout << sans << endl;
-        return 0;
-    */
+
+    string sans;
+    if (ab < ba)
+    {
+        sans = ab;
+    }
+    else
+    {
+        sans = ba;
+    }
+
+    cout << sans << endl;
+    return 0;
 }

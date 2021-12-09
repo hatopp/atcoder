@@ -3,67 +3,28 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, t, sans;
-
-    sans = "No";
-
+    string s;
     cin >> s;
-    t = s.substr(0, 3);
-
-    if (s.size() >= 3)
+    string tmp = "oxxoxxoxxoxx";
+    int len = s.length();
+    bool f = false;
+    for (int i = 0; i < 13; i++)
     {
-        for (int i = 3; i < s.size() / 3; i = i + 3)
+        if (s == tmp.substr(i, len))
         {
-            if (s[i] == s[0] && s[i + 1] == s[1] && s[i + 2] == s[2])
-            {
-                sans = "Yes";
-            }
-            else
-            {
-                sans = "No";
-            }
-        }
-        s = s.substr(s.size() / 3 * 3, s.size() % 3);
-    }
-
-    for (int i = 0; i < s.size(); i++)
-    {
-        if (s[i] == t[i])
-        {
-            sans = "Yes";
-        }
-        else if (s[i] != t[i])
-        {
-            sans = "No";
+            f = true;
+            break;
         }
     }
-
-t.size()=b;
-    if (t.size() == 3)
+    string byn;
+    if (f == true)
     {
-        if (t != "xox" || t != "xxo" || t != "oxx")
-        {
-            sans = "No";
-        }
-        else
-        {
-            sans = "Yes";
-        }
+        byn = "Yes";
     }
-
-    if (t.size() == 2)
+    else
     {
-        if (t == "oo")
-        {
-            sans = "No";
-        }
-        else
-        {
-            sans = "Yes";
-        }
+        byn = "No";
     }
-
-    cout << sans << endl;
+    cout << byn << endl;
     return 0;
 }

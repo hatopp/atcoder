@@ -3,6 +3,20 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >>
+    string s;
+    cin >> s;
+    int len = s.length();
+    string rs (s.rbegin(), s.rend());
+
+    int count = 0;
+    for (int i = 0; i < len / 2; i++)
+    {
+        if (s[i] != rs[i])
+        {
+            count++;
+        }
+    }
+
+    cout << count << endl;
+    return 0;
+}

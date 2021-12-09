@@ -3,30 +3,27 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
+    int n;
     cin >> n;
 
-    a = 0;
-    s = "";
-    vector<pair<int, string>> v;
+    /*
+    //縦h×横w
+    vector<vector<int>> v(n, vector<int>(2));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < 2; j++) {
+            cin >> v.at(i).at(j);
+        }
+    */
+
+    vector<pair<int, string>> data(n);
     for (int i = 0; i < n; i++)
     {
-        cin >> s >> a;
-        v.push_back({a, s});
+        cin >> data[i].second >> data[i].first;
     }
-    
 
-    //sort(all(v));
-    sort(v.begin(), v.end(), greater{});
-    //sort(v.begin(),v.end(),std::greater<int>());
-    
-    
+    sort(data.begin(), data.end(), greater<int>());
+    // sort(all(data));
 
-    cout << v[1].second << endl;
+    cout << data[1].second << endl;
     return 0;
-} 
-
-
-
-
+}
