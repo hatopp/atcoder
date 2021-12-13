@@ -12,5 +12,5 @@ else
 fi
 
 cd ${dif}
-code main.cpp
+open main.cpp
 
