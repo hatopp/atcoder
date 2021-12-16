@@ -1,15 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
 
-int main()
+int main(void)
 {
     int n;
     cin >> n;
 
-    map<string, int> mp;
+    vector<pair<int, string>> p(n);
+    for (int i = 0; i < n; i++)
+    {
+        cin >> p[i].second >> p[i].first;
+    }
 
-    for (int i=0; i<n; i++) {
-        cin >> s;
-        m[
-
+    sort(p.begin(), p.end());
+    cout << p[n - 2].second << endl;
+    return 0;
 }

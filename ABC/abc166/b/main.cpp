@@ -3,6 +3,9 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >>
+    int n,k;
+    cin >> n>>k;
+
+    vector<int> ans(n);
+    for (int i=1; i<=k; i++) {
+        

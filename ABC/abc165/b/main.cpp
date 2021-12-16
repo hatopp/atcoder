@@ -3,6 +3,18 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >>
+    unsigned long long int x;
+    cin >> x;
+
+    unsigned long long int mo = 100;
+    long long int ct = 0;
+
+    while (mo < x)
+    {
+        mo = mo + mo / 100;
+        ct++;
+    }
+
+    cout << ct << endl;
+    return 0;
+}

@@ -3,6 +3,20 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >>
+    int n;
+    string s;
+    cin >> n >> s;
+    
+    for (int i = 0; i < s.length(); i++)
+    {
+        //cout << s[i];
+        s[i] = s[i] + n;
+        if (s[i] > 'Z')
+        {
+            s[i] -= 26;
+        }
+        cout << s[i];
+    }
+    cout << endl;
+    return 0;
+}

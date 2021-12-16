@@ -3,6 +3,19 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >>
+    int n, x;
+    cin >> n >> x;
+    int sum = 0;
+    vector<int> v(n);
+    for (int i = 0; i < n; ++i)
+    {
+        cin >> v[i];
+        sum += v[i];
+    }
+    sort(v.begin(), v.end());
+
+    x -= sum;
+    int ans = v.size() + x / v[0];
+    cout << ans << endl;
+    return 0;
+}

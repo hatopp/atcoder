@@ -26,7 +26,12 @@
       "id": "abc156_c",
       "label": "C",
       "title": "Rally",
-      "url": "https://atcoder.jp/contests/abc156/tasks/abc156_c"
+      "url": "https://atcoder.jp/contests/abc156/tasks/abc156_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc156_d",
