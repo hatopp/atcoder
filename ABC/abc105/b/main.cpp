@@ -1,37 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
 
-int main()
-{
-    int n;
+int main() {
+    ll n;
     cin >> n;
-    bool f = false;
-    if (n % 7 == 0 || n % 4 == 0)
-    {
-        f = true;
-    }
+    vector<int> x(n + 1);
+    int kazu = 0;
+    int ans = 0;
 
-    else
-    {
-        for (int i = 1; i <= n / 7; i++)
-        {
-            n -= 7;
-            if (n % 4 == 0 || n == 0)
-            {
-                f = true;
+    for (ll i = 1; i <= n; i++) {
+        if (n % 2 == 0) {
+            break;
+
+        } else {
+            for (int j = 2; j <= n; j++) {
+                while (n % j == 0) {
+                    x.at(j)++;
+                    n /= j;
+                }
+            }
+
+            for (int j = 2; j <= n; j++) {
+                kazu *= x.at(j) + 1;
+            }
+
+            if (kazu == 3) {
+                ans++;
             }
         }
     }
 
-    string byn;
-    if (f == true)
-    {
-        byn = "Yes";
-    }
-    else
-    {
-        byn = "No";
-    }
-    cout << byn << endl;
+    cout << ans << endl;
     return 0;
 }

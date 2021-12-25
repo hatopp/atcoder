@@ -20,13 +20,23 @@
       "id": "abc012_2",
       "label": "B",
       "title": "入浴時間",
-      "url": "https://atcoder.jp/contests/abc012/tasks/abc012_2"
+      "url": "https://atcoder.jp/contests/abc012/tasks/abc012_2",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc012_3",
       "label": "C",
       "title": "九九足し算",
-      "url": "https://atcoder.jp/contests/abc012/tasks/abc012_3"
+      "url": "https://atcoder.jp/contests/abc012/tasks/abc012_3",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc012_4",
