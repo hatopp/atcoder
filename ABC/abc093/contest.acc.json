@@ -20,13 +20,23 @@
       "id": "abc093_b",
       "label": "B",
       "title": "Small and Large Integers",
-      "url": "https://atcoder.jp/contests/abc093/tasks/abc093_b"
+      "url": "https://atcoder.jp/contests/abc093/tasks/abc093_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc094_a",
       "label": "C",
       "title": "Same Integers",
-      "url": "https://atcoder.jp/contests/abc093/tasks/arc094_a"
+      "url": "https://atcoder.jp/contests/abc093/tasks/arc094_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc094_b",

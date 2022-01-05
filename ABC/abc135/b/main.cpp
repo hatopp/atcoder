@@ -1,32 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
     int n;
     cin >> n;
     vector<int> v(n);
-    for (int i = 0; i < n; ++i)
-    {
+    for (int i = 0; i < n; ++i) {
         cin >> v[i];
     }
+    for (int i = 0; i < n; i++) {
+        if (v[i] <= v[i + 1])
 
-    int mae = 0;
-    int ato;
-    for (int i = 0; i < n; i++)
-    {
-        if (v[i + 1] - v[i] != 1)
-        {
-            if (mae == 0)
-            {
-                v[i] = mae;
-            }
-            else
-            {
-                v[i] = ato;
-            }cd
-        }
-    }
-
-
-    
+            for (int i = 0; i < n - 1; i++) {
+                for (int j = i + 1; j < n; j++) {
+                    swap(v[i], v[j]);

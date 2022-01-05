@@ -1,45 +1,33 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
     string s, t;
     cin >> s >> t;
-    bool f = false;
+    string ans = "No";
 
-    if (s == t)
-    {
-        cout << "Yes" << endl;
-        return 0;
+    if (s == t) {
+        ans = "Yes";
     }
 
-    for (int i = 0; i < s.length(); i++)
-    {
-        if (t[i] != s[i])
-        {
-            if (s[i + 1] == t[i])
-            {
-                f = true;
-                
+    for (int i = 0; i < s.length(); i++) {
+        if (s[i] != t[i]) {
+            if (0 < i) {
+                swap(s[i - 1], s[i]);
+                if (s == t) {
+                    ans = "Yes";
+                }
+                swap(s[i - 1], s[i]);
             }
-
-            else
-            {
-                cout << "No" << endl;
-                return 0;
+            if (i + 1 < s.length()) {
+                swap(s[i], s[i + 1]);
+                if (s == t) {
+                    ans = "Yes";
+                }
+                swap(s[i], s[i + 1]);
             }
+            break;
         }
     }
-
-    string byn;
-    if (f == true)
-    {
-        byn = "Yes";
-    }
-    else
-    {
-        byn = "No";
-    }
-    cout << byn << endl;
-    return 0;
+    cout << ans << endl;
 }

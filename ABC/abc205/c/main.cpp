@@ -1,24 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long ll;
 
-int main()
-{
-    long long a, b, c;
+int main() {
+    ll a, b, c;
     cin >> a >> b >> c;
 
-    if (pow(a, c) < pow(b, c))
-    {
-        cout << '<' << endl;
-        return 0;
-    }
-    else if (pow(a, c) > pow(b, c))
-    {
-        cout << '>' << endl;
-        return 0;
-    }
-    else
-    {
-        cout << '=' << endl;
-        return 0;
-    }
+    if(
 }
