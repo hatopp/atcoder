@@ -1,17 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
-int main() {
-    int h, w;
-    cin >> h >> w;
-
-    //縦h×横w
-    vector<vector<int>> v(h, vector<int>(w));
-    for (int i = 0; i < h; i++) {
-        for (int j = 0; j < w; j++) {
-            cin >> v.at(i).at(j);
-        }
-    }
-
-    for (int i = 0; i < h; i++) {
-        for (int j = 0; j < h; j++) {
+int main()
+{

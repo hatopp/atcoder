@@ -1,0 +1,134 @@
+{
+
+		"include & main": {
+			"prefix": "include",
+			"body": [
+				"#include <bits/stdc++.h>",
+				"using namespace std;",
+				"",
+				"int main() {"
+			],
+			"description": "Main Template"
+		},
+		"vector1": {
+			"prefix": "v1",
+			"body": [
+				"vector<int> v(n);",
+				"for (int i=0; i<n; ++i){",
+				"    cin >> v[i];"
+			]
+		},
+		"vector_chisaii_jun": {
+			"prefix": "vc",
+			"body": [
+				"sort(v.begin(),v.end());",
+				""
+			]
+		},
+		"vector_ookii_jun": {
+			"prefix": "vo",
+			"body": [
+				"sort(v.begin(),v.end(),greater<int>());"
+			]
+		},
+		"vector_vector": {
+			"prefix": "v2",
+			"body": [
+				"//縦h×横w",
+				"vector<vector<int>> v(h, vector<int>(w));",
+				"for (int i = 0; i < h; i++) {",
+				"    for (int j = 0; j < w; j++) {",
+				"        cin >> v.at(i).at(j);"
+			]
+		},
+		"IsAlphabetorNumber": {
+			"prefix": "isa",
+			"body": [
+				"//英数小文字かの判定",
+				"bool IsAlphabetNumber(char src)",
+				"{",
+				"    //文字が英小文字かどうか判定",
+				"    if (src >= 'a' && src <= 'z')",
+				"    {",
+				"        return true;",
+				"    //文字が英大文字かどうか判定",
+				"    }",
+				"    else if (src >= 'A' && src <= 'Z')",
+				"    {",
+				"        return false;",
+				"    //文字が数字かどうか判定",
+				"    }",
+				"    else if (src >= '0')",
+				"    {",
+				"        return true;",
+				"    }",
+				"}"
+			]
+		},
+		"constINF": {
+			"prefix": "inf",
+			"body": [
+				"const int INF = 0x3fffffff;"
+			]
+		},
+		"for": {
+			"prefix": "f1",
+			"body": [
+				"for (int $1=$2; $1<$3; $1++) {$0"
+			]
+		},
+		"forfor": {
+			"prefix": "f2",
+			"body": [
+				"for (int i=0;i<n;i++) {",
+				"    for (int j=0;j<n;j++ ){"
+			]
+		},
+	/*	"cout": {
+			"prefix": "co",
+			"body": "cout << $1 << endl;$0"
+		},
+		"cin": {
+			"prefix": "ci",
+			"body": [
+				"cin >> $1 ;$0"
+			]
+		},
+	*/	"return 0": {
+			"prefix": "re",
+			"body": "return 0;"
+		},
+		"BoolYesNo": {
+			"prefix": "byn",
+			"body": [
+				"string byn;",
+				"if (f == true)",
+				"{",
+				"    byn = \"Yes\";",
+				"}",
+				"else",
+				"{",
+				"    byn = \"No\";",
+				"}",
+				"cout << byn << endl;",
+				"return 0;",
+				"}"
+			]
+		},
+		"boolflagtrue": {
+			"prefix": "bft",
+			"body": "bool f=true;"
+		},
+		"boolflagfalse": {
+			"prefix": "bff",
+			"body": "bool f=false;"
+		},
+		"kiriage": {
+			"prefix": "kiriage",
+			"body": "// a / b >> (a + (b - 1)) / b"
+		},
+		"difine_longlongint":{
+			"prefix": "ll",
+			"body": "typedef long long ll;"
+		}
+	}

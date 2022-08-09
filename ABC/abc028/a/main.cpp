@@ -1,28 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int n;
-    cin >> n;
-    string sans;
-    if (n == 100)
-    {
-        sans = "Perfect";
-    }
-    else if (90 <= n)
-    {
-        sans = "Great";
-    }
-    else if (60 <= n)
-    {
-        sans = "Good";
-    }
-    else
-    {
-        sans = "Bad";
-    }
-
-    cout << sans << endl;
-    return 0;
-}

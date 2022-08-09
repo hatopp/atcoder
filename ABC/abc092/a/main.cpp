@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
-using namespace std;
+#define rep(i, n) for (int i = 0; i < (n); i++)
+using namespace		std;
+typedef long long	ll;
 
-int main()
+int	main(void)
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >> a >> b >> c >> d;
-    cout << min(a, b) + min(c, d) << endl;
-    return 0;
+	int a, b, c, d;
+	cin >> a >> b >> c >> d;
+	int ans = min(a, b) + min(c, d);
+	cout << ans << endl;
 }

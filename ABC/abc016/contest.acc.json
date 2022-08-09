@@ -20,19 +20,34 @@
       "id": "abc016_2",
       "label": "B",
       "title": "A±B Problem",
-      "url": "https://atcoder.jp/contests/abc016/tasks/abc016_2"
+      "url": "https://atcoder.jp/contests/abc016/tasks/abc016_2",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc016_3",
       "label": "C",
       "title": "友達の友達",
-      "url": "https://atcoder.jp/contests/abc016/tasks/abc016_3"
+      "url": "https://atcoder.jp/contests/abc016/tasks/abc016_3",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc016_4",
       "label": "D",
       "title": "一刀両断",
-      "url": "https://atcoder.jp/contests/abc016/tasks/abc016_4"
+      "url": "https://atcoder.jp/contests/abc016/tasks/abc016_4",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

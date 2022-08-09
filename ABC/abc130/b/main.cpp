@@ -1,27 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int n, x;
-    cin >> n >> x;
-    int sum = 0;
-    int ct = 1;
-    for (int i = 0; i < n; i++)
-    {
-        int a;
-        cin >> a;
-        sum += a;
-
-        if (sum <= x)
-        {
-            ct++;
-        }
-        else
-        {
-            break;
-        }
-    }
-    cout << ct << endl;
-    return 0;
-}

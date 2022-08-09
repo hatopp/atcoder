@@ -1,32 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int n;
-    cin >> n;
-
-    vector<int> v(n);
-    for (int i = 0; i < n; ++i)
-    {
-        cin >> v[i];
-    }
-
-    vector<int> c(n);
-    for (int i = 0; i < n; ++i)
-    {
-        cin >> c[i];
-    }
-
-    int ans = 0;
-    for (int i = 0; i < n; i++)
-    {
-        if (v[i] > c[i])
-        {
-            ans += (v[i] - '0') - (c[i] - '0');
-        }
-    }
-
-    cout << ans << endl;
-    return 0;
-}

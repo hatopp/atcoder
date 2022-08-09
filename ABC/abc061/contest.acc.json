@@ -20,19 +20,34 @@
       "id": "abc061_b",
       "label": "B",
       "title": "Counting Roads",
-      "url": "https://atcoder.jp/contests/abc061/tasks/abc061_b"
+      "url": "https://atcoder.jp/contests/abc061/tasks/abc061_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc061_c",
       "label": "C",
       "title": "Big Array",
-      "url": "https://atcoder.jp/contests/abc061/tasks/abc061_c"
+      "url": "https://atcoder.jp/contests/abc061/tasks/abc061_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc061_d",
       "label": "D",
       "title": "Score Attack",
-      "url": "https://atcoder.jp/contests/abc061/tasks/abc061_d"
+      "url": "https://atcoder.jp/contests/abc061/tasks/abc061_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

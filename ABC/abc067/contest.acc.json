@@ -31,13 +31,23 @@
       "id": "arc078_a",
       "label": "C",
       "title": "Splitting Pile",
-      "url": "https://atcoder.jp/contests/abc067/tasks/arc078_a"
+      "url": "https://atcoder.jp/contests/abc067/tasks/arc078_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc078_b",
       "label": "D",
       "title": "Fennec VS. Snuke",
-      "url": "https://atcoder.jp/contests/abc067/tasks/arc078_b"
+      "url": "https://atcoder.jp/contests/abc067/tasks/arc078_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

@@ -20,19 +20,34 @@
       "id": "abc028_b",
       "label": "B",
       "title": "文字数カウント",
-      "url": "https://atcoder.jp/contests/abc028/tasks/abc028_b"
+      "url": "https://atcoder.jp/contests/abc028/tasks/abc028_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc028_c",
       "label": "C",
       "title": "数を3つ選ぶマン",
-      "url": "https://atcoder.jp/contests/abc028/tasks/abc028_c"
+      "url": "https://atcoder.jp/contests/abc028/tasks/abc028_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc028_d",
       "label": "D",
       "title": "乱数生成",
-      "url": "https://atcoder.jp/contests/abc028/tasks/abc028_d"
+      "url": "https://atcoder.jp/contests/abc028/tasks/abc028_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

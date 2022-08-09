@@ -1,24 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int a, b, c, d, x, z, n, count, ans;
-    string s, sans;
-    cin >> s;
-    char y = s.back()-'0';
-    s.pop_back();
-    s.pop_back();
-
-    if (y <= 2)
-    {
-        s += '-';
-    }
-    else if (y >= 7)
-    {
-        s += '+';
-    }
-
-    cout << s << endl;
-    return 0;
-}

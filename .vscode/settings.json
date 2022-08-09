@@ -1,0 +1,188 @@
+{
+	//以下一般設定//
+	"editor.renderWhitespace": "all", //ズームレベルを変更//
+	"workbench.preferredLightColorTheme": "Default Dark+", //テーマを既存からdark+にする//
+	// "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)", //ミニマップを非表示
+	"editor.fontSize": 13, //デフォルトのフォントサイズ
+	"editor.fontWeight": 350, //文字の太さ
+	"editor.mouseWheelZoom": true, //ctrl+マウスクリクリで文字大きさ変更
+	"terminal.integrated.fontFamily": "'源ノ角ゴシック Code JP'",
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.fontWeight": "normal",
+	//アイコンかわいくしときますね
+	"workbench.iconTheme": "material-icon-theme",
+	//以下coderunner設定//
+	"code-runner.runInTerminal": true, //出力ではなくターミナルでコードを動かすか//
+	"code-runner.preserveFocus": false, //実行後すぐにターミナルにフォーカスするか//
+	"code-runner.clearPreviousOutput": true, //標準入力に対応するか//
+	"code-runner.terminalRoot": "/mnt/", //ルートを変えることでwindowsのパスをlinux仕様に変換//
+	//coderunnerの言語ごとの実行コマンド//
+	"code-runner.executorMap": {
+		"c": "cd $dir && gcc $fileName -o a.out && ./a.out",
+		// "cpp": "g++ $fullFileName -o bin/$fileNameWithoutExt && chmod u+x bin/$fileNameWithoutExt.exe && bin/$fileNameWithoutExt.exe",
+		//$dirで、前半の要らないところもたくさん指定しすぎて、実行できない ⇒　Ubuntuのリモート環境に移行すれば解決しました
+		"cpp": "cd $dir && gcc -o  a.out $filename && ./a.out",
+		// -std=c++11 //
+		//  "cpp" : "cd $dir && g++ -o  $fileNameWithoutExt.out $fileName && ./$fileNameWithoutExt.out"
+		//   "cpp" : "cd $dir && g++ -o a.out main.cpp && oj t",
+	},
+	//以下vim設定//
+	"vim.leader": "<space>", //leader を space に//
+	"vim.useSystemClipboard": true, //ヤンク=コピーみたいなものがクリップボードにいきますか//
+	"vim.useCtrlKeys": true, //vimのキーバインドでCtrlを使えるようにしますか//
+	"vim.visualstar": true, //Visualモードで*キーや＃キーで選択中の単語を検索できるようにしますか//
+	"vim.hlsearch": true, //検索結果をハイライトしますか//
+	"vim.highlightedyank.enable": true, //ヤンクしたときに文字を一瞬ハイライトしますか
+	"vim.highlightedyank.color": "rgba(100, 170, 240, 0.5)", //ヤンクしたときに文字を一瞬ハイライトする色
+	"vim.highlightedyank.duration": 150, //ヤンクしたときに文字をハイライトする時間
+	//ラベルを使ってカーソル位置をジャンプする拡張機能。
+	//normalでLeaderを二回押す、Lead+Lead+sキーで一文字検索もあり//
+	"vim.easymotion": true,
+	//スニペット設定
+	// enterでサジェストを決定しない
+	"editor.acceptSuggestionOnEnter": "off",
+	// これをfalseにするとkeywordだけ消してくれる
+	"editor.suggest.showKeywords": false,
+	// textもいらないので消す
+	"editor.suggest.showWords": false,
+	// snippetのサジェストを最初に出す。
+	"editor.snippetSuggestions": "top",
+	// 入力した時にどの項目にカーソルを合わせた状態にするかみたいなやつrecentlyUsedByPrefixにした
+	"editor.suggestSelection": "recentlyUsedByPrefix",
+	"editor.fontFamily": "'源ノ角ゴシック Code JP'", //フォント変えときますね
+	"explorer.confirmDragAndDrop": false,
+	"editor.autoClosingBrackets": "never",
+	"terminal.integrated.fontSize": 13,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.copyOnSelection": true,
+	"terminal.integrated.drawBoldTextInBrightColors": false,
+	"C_Cpp.updateChannel": "Insiders",
+	"tabnine.experimentalAutoImports": true,
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"editor.rename.enablePreview": false,
+	"editor.minimap.enabled": false,
+	"markdown-preview-enhanced.HTML5EmbedAudioAttributes": "controls preload=\"metadata\" width=\"600\"",
+	"markdown-preview-enhanced.previewTheme": "github-dark.css",
+	"42header.username": "mkunimot",
+	"42header.email": "mkunimot@student.42tokyo.jp",
+	"editor.insertSpaces": false,
+	"workbench.activityBar.visible": false,
+	"editor.formatOnSave": true,
+	"files.associations": {
+		"iostream": "cpp",
+		"__bit_reference": "cpp",
+		"__bits": "cpp",
+		"__config": "cpp",
+		"__debug": "cpp",
+		"__errc": "cpp",
+		"__hash_table": "cpp",
+		"__locale": "cpp",
+		"__mutex_base": "cpp",
+		"__node_handle": "cpp",
+		"__nullptr": "cpp",
+		"__split_buffer": "cpp",
+		"__string": "cpp",
+		"__threading_support": "cpp",
+		"__tree": "cpp",
+		"__tuple": "cpp",
+		"any": "cpp",
+		"array": "cpp",
+		"atomic": "cpp",
+		"barrier": "cpp",
+		"bit": "cpp",
+		"bitset": "cpp",
+		"cctype": "cpp",
+		"cfenv": "cpp",
+		"charconv": "cpp",
+		"chrono": "cpp",
+		"cinttypes": "cpp",
+		"clocale": "cpp",
+		"cmath": "cpp",
+		"codecvt": "cpp",
+		"compare": "cpp",
+		"complex": "cpp",
+		"concepts": "cpp",
+		"condition_variable": "cpp",
+		"csetjmp": "cpp",
+		"csignal": "cpp",
+		"cstdarg": "cpp",
+		"cstddef": "cpp",
+		"cstdint": "cpp",
+		"cstdio": "cpp",
+		"cstdlib": "cpp",
+		"cstring": "cpp",
+		"ctime": "cpp",
+		"cwchar": "cpp",
+		"cwctype": "cpp",
+		"deque": "cpp",
+		"exception": "cpp",
+		"coroutine": "cpp",
+		"forward_list": "cpp",
+		"fstream": "cpp",
+		"future": "cpp",
+		"initializer_list": "cpp",
+		"iomanip": "cpp",
+		"ios": "cpp",
+		"iosfwd": "cpp",
+		"istream": "cpp",
+		"latch": "cpp",
+		"limits": "cpp",
+		"list": "cpp",
+		"locale": "cpp",
+		"map": "cpp",
+		"memory": "cpp",
+		"mutex": "cpp",
+		"new": "cpp",
+		"numbers": "cpp",
+		"numeric": "cpp",
+		"optional": "cpp",
+		"ostream": "cpp",
+		"queue": "cpp",
+		"random": "cpp",
+		"ranges": "cpp",
+		"ratio": "cpp",
+		"regex": "cpp",
+		"scoped_allocator": "cpp",
+		"semaphore": "cpp",
+		"set": "cpp",
+		"shared_mutex": "cpp",
+		"span": "cpp",
+		"sstream": "cpp",
+		"stack": "cpp",
+		"stdexcept": "cpp",
+		"streambuf": "cpp",
+		"string": "cpp",
+		"string_view": "cpp",
+		"system_error": "cpp",
+		"thread": "cpp",
+		"tuple": "cpp",
+		"type_traits": "cpp",
+		"typeindex": "cpp",
+		"typeinfo": "cpp",
+		"unordered_map": "cpp",
+		"unordered_set": "cpp",
+		"valarray": "cpp",
+		"variant": "cpp",
+		"vector": "cpp",
+		"*.tcc": "cpp",
+		"cuchar": "cpp",
+		"algorithm": "cpp",
+		"functional": "cpp",
+		"iterator": "cpp",
+		"memory_resource": "cpp",
+		"source_location": "cpp",
+		"utility": "cpp",
+		"stop_token": "cpp",
+		"syncstream": "cpp",
+		"filesystem": "cpp"
+	},
+	"editor.defaultFormatter": "ms-vscode.cpptools", //重くなるかも
+	/*
+		"[markdown]":{
+			"editor.lineNumbers" : "off",	//マークダウン方式の時の行番号は要らないなって
+			"editor.autoIndent" : "none", //オートインデントして欲しくない
+			"editor.renderWhitespace" : "trailing",
+		}
+		*/
+	//"markdown.styles": ["style.css"]
+}

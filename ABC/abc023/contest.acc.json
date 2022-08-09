@@ -23,6 +23,7 @@
       "url": "https://atcoder.jp/contests/abc023/tasks/abc023_b",
       "directory": {
         "path": "b",
+        "testdir": "test",
         "submit": "main.cpp"
       }
     },
@@ -30,13 +31,23 @@
       "id": "abc023_c",
       "label": "C",
       "title": "収集王",
-      "url": "https://atcoder.jp/contests/abc023/tasks/abc023_c"
+      "url": "https://atcoder.jp/contests/abc023/tasks/abc023_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc023_d",
       "label": "D",
       "title": "射撃王",
-      "url": "https://atcoder.jp/contests/abc023/tasks/abc023_d"
+      "url": "https://atcoder.jp/contests/abc023/tasks/abc023_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

@@ -1,27 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int x, a, b;
-    cin >> x >> a >> b;
-
-    string sans;
-
-    if (b <= a)
-    {
-        sans = "delicious";
-    }
-
-    else if (b > a && b <= a + x)
-    {
-        sans = "safe";
-    }
-    else if (b > a + x)
-    {
-        sans = "dangerous";
-    }
-
-    cout << sans << endl;
-    return 0;
-}

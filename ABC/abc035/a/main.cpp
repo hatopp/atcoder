@@ -1,18 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int w, h;
-    cin >> w >> h;
-
-    if (w / 16 * 9 == h)
-    {
-        cout << "16:9" << endl;
-    }
-    else
-    {
-        cout << "4:3" << endl;
-    }
-    return 0;
-}

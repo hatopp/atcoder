@@ -20,19 +20,34 @@
       "id": "abc027_b",
       "label": "B",
       "title": "島と橋",
-      "url": "https://atcoder.jp/contests/abc027/tasks/abc027_b"
+      "url": "https://atcoder.jp/contests/abc027/tasks/abc027_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc027_c",
       "label": "C",
       "title": "倍々ゲーム",
-      "url": "https://atcoder.jp/contests/abc027/tasks/abc027_c"
+      "url": "https://atcoder.jp/contests/abc027/tasks/abc027_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc027_d",
       "label": "D",
       "title": "ロボット",
-      "url": "https://atcoder.jp/contests/abc027/tasks/abc027_d"
+      "url": "https://atcoder.jp/contests/abc027/tasks/abc027_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

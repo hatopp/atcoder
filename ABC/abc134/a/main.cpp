@@ -1,11 +1,4 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
-
-int main()
-{
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >> a;
-    cout << 3 * a * a<< endl;
-    return 0;
-}
+typedef long long ll;

@@ -1,20 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >> x >> a >> b;
-    c = abs(x - a);
-    d = abs(x - b);
-
-    sans = "A";
-    if (c > d)
-    {
-        sans = "B";
-    }
-
-    cout << sans << endl;
-    return 0;
-}

@@ -1,21 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int n;
-    cin >> n;
-
-    vector<string> v(n);
-    for (int i = 0; i < n; ++i)
-    {
-        cin >> v[i];
-        if (v[i] == "Y")
-        {
-            cout << "Four" << endl;
-            return 0;
-        }
-    }
-    cout << "Three" << endl;
-    return 0;
-}

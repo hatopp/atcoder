@@ -1,27 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    long long int n, m, t, a, b;
-    cin >> n >> m >> t;
-
-    vector<pair<int, int>> vp(m);
-    for (int i = 0; i < m; ++i)
-    {
-        cin >> a >> b;
-        vp[i]=pair(a, b);
-    }
-
-int mae=0;
-int ato;
-
-    for (int i=0; i<m; i++) {
-        if(
-
-    for (int i = 0; i < m; i++)
-    {
-        cout << vp[i].first << " " << vp[i].second << endl;
-    }
-    return 0;
-}

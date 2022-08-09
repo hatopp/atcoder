@@ -1,12 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    double t, a, b, c, d, x, y, z, n, count;
-    string s, sans;
-    cin >> t >> x;
-    double ans = t / x;
-    cout << ans << endl;
-    return 0;
-}

@@ -1,17 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n;
-    string s;
-    cin >> x >> y;
-    string ans = "No";
-
-    if (max(x, y) - min(x, y) < 3)
-    {
-        ans = "Yes";
-    }
-    cout << ans << endl;
-    return 0;
-}

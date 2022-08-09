@@ -20,19 +20,34 @@
       "id": "abc011_2",
       "label": "B",
       "title": "名前の確認",
-      "url": "https://atcoder.jp/contests/abc011/tasks/abc011_2"
+      "url": "https://atcoder.jp/contests/abc011/tasks/abc011_2",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc011_3",
       "label": "C",
       "title": "123引き算",
-      "url": "https://atcoder.jp/contests/abc011/tasks/abc011_3"
+      "url": "https://atcoder.jp/contests/abc011/tasks/abc011_3",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc011_4",
       "label": "D",
       "title": "大ジャンプ",
-      "url": "https://atcoder.jp/contests/abc011/tasks/abc011_4"
+      "url": "https://atcoder.jp/contests/abc011/tasks/abc011_4",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

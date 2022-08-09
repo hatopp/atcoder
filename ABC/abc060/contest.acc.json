@@ -20,19 +20,34 @@
       "id": "abc060_b",
       "label": "B",
       "title": "Choose Integers",
-      "url": "https://atcoder.jp/contests/abc060/tasks/abc060_b"
+      "url": "https://atcoder.jp/contests/abc060/tasks/abc060_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc073_a",
       "label": "C",
       "title": "Sentou",
-      "url": "https://atcoder.jp/contests/abc060/tasks/arc073_a"
+      "url": "https://atcoder.jp/contests/abc060/tasks/arc073_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc073_b",
       "label": "D",
       "title": "Simple Knapsack",
-      "url": "https://atcoder.jp/contests/abc060/tasks/arc073_b"
+      "url": "https://atcoder.jp/contests/abc060/tasks/arc073_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

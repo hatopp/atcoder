@@ -20,19 +20,34 @@
       "id": "abc009_2",
       "label": "B",
       "title": "心配性な富豪、ファミリーレストランに行く。",
-      "url": "https://atcoder.jp/contests/abc009/tasks/abc009_2"
+      "url": "https://atcoder.jp/contests/abc009/tasks/abc009_2",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc009_3",
       "label": "C",
       "title": "辞書式順序ふたたび",
-      "url": "https://atcoder.jp/contests/abc009/tasks/abc009_3"
+      "url": "https://atcoder.jp/contests/abc009/tasks/abc009_3",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc009_4",
       "label": "D",
       "title": "漸化式",
-      "url": "https://atcoder.jp/contests/abc009/tasks/abc009_4"
+      "url": "https://atcoder.jp/contests/abc009/tasks/abc009_4",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

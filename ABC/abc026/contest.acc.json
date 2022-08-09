@@ -20,19 +20,34 @@
       "id": "abc026_b",
       "label": "B",
       "title": "N重丸",
-      "url": "https://atcoder.jp/contests/abc026/tasks/abc026_b"
+      "url": "https://atcoder.jp/contests/abc026/tasks/abc026_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc026_c",
       "label": "C",
       "title": "高橋君の給料",
-      "url": "https://atcoder.jp/contests/abc026/tasks/abc026_c"
+      "url": "https://atcoder.jp/contests/abc026/tasks/abc026_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc026_d",
       "label": "D",
       "title": "高橋君ボール1号",
-      "url": "https://atcoder.jp/contests/abc026/tasks/abc026_d"
+      "url": "https://atcoder.jp/contests/abc026/tasks/abc026_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

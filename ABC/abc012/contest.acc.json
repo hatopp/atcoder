@@ -42,7 +42,12 @@
       "id": "abc012_4",
       "label": "D",
       "title": "バスと避けられない運命",
-      "url": "https://atcoder.jp/contests/abc012/tasks/abc012_4"
+      "url": "https://atcoder.jp/contests/abc012/tasks/abc012_4",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

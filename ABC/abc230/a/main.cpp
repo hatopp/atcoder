@@ -1,19 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-    cin >> n;
-
-    ans = n;
-    ;
-    if (n >= 42)
-    {
-        ans = n + 1;
-    }
-    cout << "AGC";
-    cout << setfill('0') << right << setw(3)  << ans << endl;
-    return 0;
-}

@@ -1,18 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    string s;
-    cin >> s;
-    if ((s.substr(s.size() - 2, 2)) == "er")
-    {
-        cout << "er" << endl;
-    }
-
-    else if ((s.substr(s.size() - 3, 3)) == "ist")
-    {
-        cout << "ist" << endl;
-    }
-    return 0;
-}

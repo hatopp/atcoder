@@ -31,13 +31,23 @@
       "id": "arc080_a",
       "label": "C",
       "title": "4-adjacent",
-      "url": "https://atcoder.jp/contests/abc069/tasks/arc080_a"
+      "url": "https://atcoder.jp/contests/abc069/tasks/arc080_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc080_b",
       "label": "D",
       "title": "Grid Coloring",
-      "url": "https://atcoder.jp/contests/abc069/tasks/arc080_b"
+      "url": "https://atcoder.jp/contests/abc069/tasks/arc080_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

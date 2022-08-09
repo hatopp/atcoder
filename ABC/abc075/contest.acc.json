@@ -20,19 +20,34 @@
       "id": "abc075_b",
       "label": "B",
       "title": "Minesweeper",
-      "url": "https://atcoder.jp/contests/abc075/tasks/abc075_b"
+      "url": "https://atcoder.jp/contests/abc075/tasks/abc075_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc075_c",
       "label": "C",
       "title": "Bridge",
-      "url": "https://atcoder.jp/contests/abc075/tasks/abc075_c"
+      "url": "https://atcoder.jp/contests/abc075/tasks/abc075_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc075_d",
       "label": "D",
       "title": "Axis-Parallel Rectangle",
-      "url": "https://atcoder.jp/contests/abc075/tasks/abc075_d"
+      "url": "https://atcoder.jp/contests/abc075/tasks/abc075_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

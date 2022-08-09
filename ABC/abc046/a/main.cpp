@@ -1,29 +1,10 @@
---#include <bits/stdc++.h>
+#include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int a, b, c;
-    cin >> a >> b >> c;
+	int a,b,c;
 
-    int count = 3;
-    if (a == b)
-    {
-        count--;
-    }
-    if (a == c)
-    {
-        count--;
-    }
-    if (b == c)
-    {
-        count--;
-    }
-    if (a == b && b == c)
-    {
-        count=1;
-    }
-
-    cout << count << endl;
-    return 0;
-}
+	if ( a!=b

@@ -20,19 +20,34 @@
       "id": "abc058_b",
       "label": "B",
       "title": "∵∴∵",
-      "url": "https://atcoder.jp/contests/abc058/tasks/abc058_b"
+      "url": "https://atcoder.jp/contests/abc058/tasks/abc058_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc071_a",
       "label": "C",
       "title": "Dubious Document",
-      "url": "https://atcoder.jp/contests/abc058/tasks/arc071_a"
+      "url": "https://atcoder.jp/contests/abc058/tasks/arc071_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc071_b",
       "label": "D",
       "title": "###",
-      "url": "https://atcoder.jp/contests/abc058/tasks/arc071_b"
+      "url": "https://atcoder.jp/contests/abc058/tasks/arc071_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

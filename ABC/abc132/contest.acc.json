@@ -23,6 +23,7 @@
       "url": "https://atcoder.jp/contests/abc132/tasks/abc132_b",
       "directory": {
         "path": "b",
+        "testdir": "test",
         "submit": "main.cpp"
       }
     },
@@ -30,25 +31,45 @@
       "id": "abc132_c",
       "label": "C",
       "title": "Divide the Problems",
-      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_c"
+      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc132_d",
       "label": "D",
       "title": "Blue and Red Balls",
-      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_d"
+      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc132_e",
       "label": "E",
       "title": "Hopscotch Addict",
-      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_e"
+      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_e",
+      "directory": {
+        "path": "e",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc132_f",
       "label": "F",
       "title": "Small Products",
-      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_f"
+      "url": "https://atcoder.jp/contests/abc132/tasks/abc132_f",
+      "directory": {
+        "path": "f",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

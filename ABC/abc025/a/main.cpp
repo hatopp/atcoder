@@ -1,21 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    string s;
-    int n;
-    cin >> s >> n;
-
-    // a / b >> (a + (b - 1)) / b b
-
-    if (n % 5 == 0)
-    {
-        cout << s[n / 5 - 1] << s[4] << endl;
-    }
-    else
-    {
-        cout << s[(n + 5 - 1) / 5 - 1] << s[n - (n / 5) * 5 - 1] << endl;
-    }
-    return 0;
-}

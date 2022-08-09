@@ -1,24 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int a, b, c, d, x, y, z, n, count, ans;
-    string s, sans;
-
-    cin >> a >> b >> c;
-    ans = -1;
-    if (a == b && a % c == 0)
-    {
-        ans = a;
-    }
-
-    if ((b / c) != (a / c))
-    {
-        ans = b / c * c;
-    }
-    cout << ans << endl;
-    return 0;
-}
-
-

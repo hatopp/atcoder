@@ -31,13 +31,23 @@
       "id": "abc041_c",
       "label": "C",
       "title": "背の順",
-      "url": "https://atcoder.jp/contests/abc041/tasks/abc041_c"
+      "url": "https://atcoder.jp/contests/abc041/tasks/abc041_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc041_d",
       "label": "D",
       "title": "徒競走",
-      "url": "https://atcoder.jp/contests/abc041/tasks/abc041_d"
+      "url": "https://atcoder.jp/contests/abc041/tasks/abc041_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

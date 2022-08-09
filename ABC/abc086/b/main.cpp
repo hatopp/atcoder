@@ -1,22 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    string a, b;
-    cin >> a >> b;
-    string c = a + b;
-    int d = stoi(c);
-
-    for (int i = 1; i < d / 2; i++)
-    {
-
-        if (d % i == 0 && d / i == i)
-        {
-            cout << "Yes" << endl;
-            return 0;
-        }
-    }
-    cout << "No" << endl;
-    return 0;
-}

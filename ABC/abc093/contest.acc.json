@@ -42,7 +42,12 @@
       "id": "arc094_b",
       "label": "D",
       "title": "Worst Case",
-      "url": "https://atcoder.jp/contests/abc093/tasks/arc094_b"
+      "url": "https://atcoder.jp/contests/abc093/tasks/arc094_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

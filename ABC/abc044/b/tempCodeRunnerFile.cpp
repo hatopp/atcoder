@@ -1,1 +1,0 @@
-     cout << w.substr(i) << endl;

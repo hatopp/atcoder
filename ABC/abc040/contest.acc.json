@@ -20,19 +20,34 @@
       "id": "abc040_b",
       "label": "B",
       "title": "□□□□□",
-      "url": "https://atcoder.jp/contests/abc040/tasks/abc040_b"
+      "url": "https://atcoder.jp/contests/abc040/tasks/abc040_b",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc040_c",
       "label": "C",
       "title": "柱柱柱柱柱",
-      "url": "https://atcoder.jp/contests/abc040/tasks/abc040_c"
+      "url": "https://atcoder.jp/contests/abc040/tasks/abc040_c",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc040_d",
       "label": "D",
       "title": "道路の老朽化対策について",
-      "url": "https://atcoder.jp/contests/abc040/tasks/abc040_d"
+      "url": "https://atcoder.jp/contests/abc040/tasks/abc040_d",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

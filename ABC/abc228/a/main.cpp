@@ -1,36 +1,7 @@
 #include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); i++)
 using namespace std;
+typedef long long ll;
 
 int main()
 {
-    int s, t, x;
-    cin >> s >> t >> x;
-
-    bool f = false;
-
-    if (s < t)
-    {
-        if (s <= x && x < t)
-        {
-            f = true;
-        }
-    }
-    else
-    {
-        if (x < t || s <= x)
-        {
-            f = true;
-        }
-    }
-    string byn;
-    if (f == true)
-    {
-        byn = "Yes";
-    }
-    else
-    {
-        byn = "No";
-    }
-    cout << byn << endl;
-    return 0;
-}

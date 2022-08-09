@@ -31,13 +31,23 @@
       "id": "arc077_a",
       "label": "C",
       "title": "pushpush",
-      "url": "https://atcoder.jp/contests/abc066/tasks/arc077_a"
+      "url": "https://atcoder.jp/contests/abc066/tasks/arc077_a",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "arc077_b",
       "label": "D",
       "title": "11",
-      "url": "https://atcoder.jp/contests/abc066/tasks/arc077_b"
+      "url": "https://atcoder.jp/contests/abc066/tasks/arc077_b",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }

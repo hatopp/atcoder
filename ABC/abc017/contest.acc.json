@@ -20,19 +20,34 @@
       "id": "abc017_2",
       "label": "B",
       "title": "choku語",
-      "url": "https://atcoder.jp/contests/abc017/tasks/abc017_2"
+      "url": "https://atcoder.jp/contests/abc017/tasks/abc017_2",
+      "directory": {
+        "path": "b",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc017_3",
       "label": "C",
       "title": "ハイスコア",
-      "url": "https://atcoder.jp/contests/abc017/tasks/abc017_3"
+      "url": "https://atcoder.jp/contests/abc017/tasks/abc017_3",
+      "directory": {
+        "path": "c",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     },
     {
       "id": "abc017_4",
       "label": "D",
       "title": "サプリメント",
-      "url": "https://atcoder.jp/contests/abc017/tasks/abc017_4"
+      "url": "https://atcoder.jp/contests/abc017/tasks/abc017_4",
+      "directory": {
+        "path": "d",
+        "testdir": "test",
+        "submit": "main.cpp"
+      }
     }
   ]
 }
