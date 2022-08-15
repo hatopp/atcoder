@@ -5,3 +5,14 @@ typedef long long ll;
 
 int main()
 {
+	int n;
+	int count = 0;
+	cin >> n;
+	while (n > 0)
+	{
+		n = n / 2;
+		count++;
+	}
+	cout << pow(2, count) << endl;
+	return 0;
+}

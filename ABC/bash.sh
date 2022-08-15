@@ -1,4 +1,4 @@
 #!/bin/bash
-for i in {001..240}; do
+for i in {250..265}; do
 	acc new abc$i
 done

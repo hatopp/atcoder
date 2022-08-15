@@ -66,7 +66,7 @@
 	"42header.username": "mkunimot",
 	"42header.email": "mkunimot@student.42tokyo.jp",
 	"editor.insertSpaces": false,
-	"workbench.activityBar.visible": false,
+	"workbench.activityBar.visible": true,
 	"editor.formatOnSave": true,
 	"files.associations": {
 		"iostream": "cpp",

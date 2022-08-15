@@ -4,7 +4,6 @@ using ll = long long;
 
 int main()
 {
-    ll a, b;
-    cin >> a >> b;
-    cout << (a * b + 1) / 2 << endl;
+    int h, w;
+    cin >> h >> w;
 }
