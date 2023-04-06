@@ -5,3 +5,15 @@ typedef long long ll;
 
 int main()
 {
+	int n,x;
+	cin >> n >> x;
+
+	int num = 0;
+	if (x % n == 0)
+		num = x / n;
+	else
+		num = x / n + 1;
+
+	cout << char('A'+num-1) << endl;
+	return 0;
+}

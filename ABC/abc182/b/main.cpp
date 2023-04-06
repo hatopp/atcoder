@@ -1,28 +1,39 @@
 #include <bits/stdc++.h>
 #define rep(i, n) for (int i = 0; i < (n); i++)
-using namespace std;
-typedef long long ll;
 
-int main()
+using namespace		std;
+typedef long long	ll;
+
+int	main(void)
 {
 	int n;
-	vector<int> v(n);
-	for (int i=0; i<n; ++i){
-		cin >> v[i];
-	}
-	sort(v.begin(),v.end());
-	
-	map<int,int> mp(v[n]);
+	cin >> n;
 
-	for (int i=0;i<n;i++)
+	vector<int> v(n);
+
+	for (int i = 0; i < n; i++)
+		cin >> v[i];
+
+	int max = *max_element(v.begin(), v.end());
+	int ans = *min_element(v.begin(), v.end());
+
+	int count = 0;
+	int now_max = 0;
+	for (int i = max; i > 1; i--)
 	{
-		for(int j=0;j<v[n];j++)
+		for (int j = 0; j < n; j++)
 		{
-			if (v[i] % j == 0)
-				g[j]++;
+			if (v[j] % i == 0)
+			{
+				count++;
+				if (count > now_max)
+				{
+					now_max = count;
+					ans = i;
+				}
+			}
 		}
+		count = 0;
 	}
-	sort
 	cout << ans << endl;
-	return 0;
 }
